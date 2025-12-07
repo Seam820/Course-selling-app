@@ -3,8 +3,6 @@ import React from 'react';
 const Cart = (props) => {
     const cart = props.cart;
     
-    // Calculate Total Price
-    // We use .reduce() to add up all prices, or you can use a simple for loop
     let total = 0;
     for (let i = 0; i < cart.length; i++) {
         const course = cart[i];
