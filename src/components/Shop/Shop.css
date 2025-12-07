@@ -1,0 +1,30 @@
+/* Shop.css */
+
+.shop-container {
+    display: flex; /* This is vital! It forces the children to sit in a row */
+    padding: 20px;
+}
+
+.course-container {
+    width: 75%; /* The courses take up the left 75% */
+    border-right: 1px solid lightgray;
+    margin-right: 10px;
+    
+    /* Make the courses display in a grid */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-wrapper {
+    width: 25%; /* The cart takes up the right 25% */
+}
+
+/* --- NEW TRICK --- */
+/* This makes the cart follow you as you scroll down! */
+.cart-wrapper {
+    position: sticky;
+    top: 20px; /* Stops 20px from the top of the screen */
+    height: 500px; /* Optional: Sets a height area for the cart */
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.course-card {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px; /* Fixed width for the card */
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    background-color: white;
+    text-align: center;
+}
+
+.course-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.enroll-btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enroll-btn:hover {
+    background-color: #0056b3;
+}
